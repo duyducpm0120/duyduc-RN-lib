@@ -12,7 +12,10 @@
   "dependencies": {
     "react": "17.0.2",
     "react-native": "0.66.1",
-    "react-native-image-picker": "^4.1.2"
+    "react-native-gesture-handler": "^1.10.3",
+    "react-native-image-picker": "^4.1.2",
+    "react-native-reanimated": "^2.2.3",
+    "reanimated-bottom-sheet": "^1.0.0-alpha.22"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",

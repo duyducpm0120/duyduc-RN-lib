@@ -8,13 +8,13 @@ import {
   useColorScheme,
   View,
 } from 'react-native';
-import {ImagePicker} from './src/input';
+import {BottomSheetComponent, ImagePicker} from './src/input';
 
 function App() {
   return (
-    <View style={styles.container}>
-      <ImagePicker></ImagePicker>
-    </View>
+    // <View style={styles.container}>
+    <BottomSheetComponent></BottomSheetComponent>
+    // {/* </View> */}
   );
 }
 
@@ -23,6 +23,8 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
+    width: '100%',
+    height: '100%',
   },
 });
 
