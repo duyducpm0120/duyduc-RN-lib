@@ -89,6 +89,9 @@ function Scroll() {
           );
         })}
       </ScrollView>
+
+
+    //Dots at bottom
       <View
         style={{
           flexDirection: 'row',
